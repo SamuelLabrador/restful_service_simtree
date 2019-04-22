@@ -1,0 +1,1 @@
+curl -F 'file=@test.txt' http://localhost:8080/file
