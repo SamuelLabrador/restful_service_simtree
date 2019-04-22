@@ -65,5 +65,13 @@ The intention is that the front end Visual Studio plugin (https://github.com/Sam
 * The Spring framework is modeled after MVC (Model View Controller). 
 
 * When a request is sent to _http://localhost:8080/file_, the function _change_, in the file _\complete\src\main\java\hello\Change.java_, processes the request. 
-	* This function should be modified to pass the data to the _similarity_tree_ algorithm. The changes produced from this algorithm should then be returned as an array of _change_ objects.
 
+* The _change_ function:
+	* Deserializes the file from the request
+	* Returns the response, specified in _JSON response format_ (above).
+
+### TODO:
+
+* Integrate the _similarity tree_ algorithm into the service. Possibly pass the file content to another class, dedicated to processing the content.
+
+* Clean up the project structure... There are still some files from the original project that was used as a buildupon (ie Greeting.java, GreetingController.java, etc).
