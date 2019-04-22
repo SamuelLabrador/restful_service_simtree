@@ -1,0 +1,1 @@
+The purpose of this project is to create a service that takes in files via a GET request and returns 'changes' that should be made to that file.
